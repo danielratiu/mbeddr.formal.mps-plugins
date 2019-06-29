@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.platform.build</id>
+  <name>com.mbeddr.platform.build</name>
+  <version>1.2-1.2.21286.4e0beda</version>
+  <depends>de.slisson.mps.all</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

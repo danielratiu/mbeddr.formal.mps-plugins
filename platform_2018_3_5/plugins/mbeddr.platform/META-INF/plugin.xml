@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.platform</id>
+  <name>com.mbeddr.platform</name>
+  <version>1.2-1.2.21286.4e0beda</version>
+  <vendor url="http://mbeddr.com">mbeddr</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <depends>de.slisson.mps.richtext</depends>
+  <depends>de.slisson.mps.conditionalEditor</depends>
+  <depends>org.apache.commons</depends>
+  <depends>de.itemis.mps.blutil</depends>
+  <depends>com.mbeddr.mpsutil.suppresswarning</depends>
+  <depends>com.mbeddr.mpsutil.plantuml</depends>
+  <depends>com.mbeddr.mpsutil.jung</depends>
+  <depends>com.mbeddr.mpsutil.filepicker</depends>
+  <depends>com.mbeddr.mpsutil.common</depends>
+  <depends>com.mbeddr.mpsutil.infrastructure.misc</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

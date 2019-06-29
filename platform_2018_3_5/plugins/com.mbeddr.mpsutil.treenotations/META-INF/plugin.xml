@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.treenotations</id>
+  <name>com.mbeddr.mpsutil.treenotations</name>
+  <version>1.2-1.2.21286.4e0beda</version>
+  <depends>jetbrains.mps.core</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>
