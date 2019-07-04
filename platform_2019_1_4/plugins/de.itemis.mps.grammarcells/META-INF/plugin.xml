@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>de.itemis.mps.grammarcells</id>
+  <name>de.itemis.mps.grammarcells</name>
+  <version>2019.1.1002.04c66a6</version>
+  <depends>jetbrains.mps.core</depends>
+  <depends>com.intellij.modules.mps</depends>
+  <depends>de.slisson.mps.hacks</depends>
+  <depends>de.slisson.mps.richtext</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

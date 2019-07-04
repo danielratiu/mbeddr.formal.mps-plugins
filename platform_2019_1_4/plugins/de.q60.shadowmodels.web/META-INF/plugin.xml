@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>de.q60.shadowmodels.web</id>
+  <name>Shadow Models based web editor</name>
+  <version>2019.1.0</version>
+  <depends>de.q60.shadowmodels</depends>
+  <depends>org.apache.commons</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

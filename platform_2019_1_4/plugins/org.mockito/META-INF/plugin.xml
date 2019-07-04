@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>org.mockito</id>
+  <name>org.mockito</name>
+  <description>Stubs for org.mockito</description>
+  <version>1.3-1.3.21722.0d19fb0</version>
+  <depends>jetbrains.mps.core</depends>
+  <depends>jetbrains.mps.testing</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>
