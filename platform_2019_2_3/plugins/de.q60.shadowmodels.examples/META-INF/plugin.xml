@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>de.q60.shadowmodels.examples</id>
+  <name>Shadow Models (Examples)</name>
+  <version>2018.1.0</version>
+  <depends>de.q60.shadowmodels</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

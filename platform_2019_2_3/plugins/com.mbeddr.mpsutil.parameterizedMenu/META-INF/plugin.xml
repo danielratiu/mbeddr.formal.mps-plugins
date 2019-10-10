@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.parameterizedMenu</id>
+  <name>com.mbeddr.mpsutil.parameterizedMenu</name>
+  <description>extension to the Transformation Menu of j.mps.lang.editor that allows two further childen for a `parameterized` item</description>
+  <version>1.4-1.4.21907.53ec902</version>
+  <depends>jetbrains.mps.core</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>
