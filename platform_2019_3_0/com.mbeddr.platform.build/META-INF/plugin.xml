@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.platform.build</id>
+  <name>com.mbeddr.platform.build</name>
+  <version>2019.3-mps-2019.3.2019.3.22033.3fe027d</version>
+  <depends>de.itemis.mps.extensions.build</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>
