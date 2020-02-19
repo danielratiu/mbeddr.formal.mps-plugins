@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.suppresswarning</id>
+  <name>com.mbeddr.mpsutil.suppresswarning</name>
+  <version>2019.3-2019.3.22129.f3b1875</version>
+  <depends>jetbrains.mps.core</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

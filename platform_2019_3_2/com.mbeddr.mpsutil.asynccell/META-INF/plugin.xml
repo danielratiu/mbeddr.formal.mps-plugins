@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.asynccell</id>
+  <name>com.mbeddr.mpsutil.asynccell</name>
+  <description>Cell that shows a spinner while the long-running computation of the cell value is still running in background.</description>
+  <version>2019.3-2019.3.22129.f3b1875</version>
+  <depends>jetbrains.mps.core</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

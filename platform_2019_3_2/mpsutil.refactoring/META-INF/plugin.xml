@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.refactoring</id>
+  <name>com.mbeddr.mpsutil.refactoring</name>
+  <version>2019.3-2019.3.22129.f3b1875</version>
+  <depends>jetbrains.mps.core</depends>
+  <depends>de.slisson.mps.hacks</depends>
+  <depends>org.apache.commons</depends>
+  <depends>com.mbeddr.mpsutil.contextactions</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.filepicker</id>
+  <name>com.mbeddr.mpsutil.filepicker</name>
+  <description>File Picker Langauge from mbeddr.mpsutil</description>
+  <version>2019.3-2019.3.22129.f3b1875</version>
+  <vendor url="http://mbeddr.com/">mbeddr</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <depends>org.apache.commons</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>
