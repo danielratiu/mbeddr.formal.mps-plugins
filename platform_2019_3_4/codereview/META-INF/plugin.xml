@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.codereview</id>
+  <name>com.mbeddr.corereview</name>
+  <version>2019.3-2019.3.22227.6f9f955</version>
+  <vendor url="http://mbeddr.com">mbeddr</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <depends>com.mbeddr.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>
