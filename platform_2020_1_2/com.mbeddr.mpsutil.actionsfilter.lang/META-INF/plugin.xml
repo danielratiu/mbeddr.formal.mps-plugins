@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.actionsfilter.lang</id>
+  <name>com.mbeddr.mpsutil.actionsfilter.lang</name>
+  <description>Action Filters from mbeddr.mpsutil</description>
+  <version>2020.1-2020.1.22296.534d882</version>
+  <vendor url="http://mbeddr.com/">mbeddr</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <depends>com.intellij.modules.mps</depends>
+  <depends>de.itemis.mps.editor.widgets</depends>
+  <depends>jetbrains.mps.ide.devkit</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

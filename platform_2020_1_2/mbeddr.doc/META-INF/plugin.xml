@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.doc</id>
+  <name>com.mbeddr.doc</name>
+  <version>2020.1-2020.1.22296.534d882</version>
+  <vendor url="http://mbeddr.com">mbeddr</vendor>
+  <depends>com.mbeddr.platform</depends>
+  <depends>com.mbeddr.mpsutil.filepicker</depends>
+  <depends>de.slisson.mps.tables</depends>
+  <depends>de.itemis.mps.editor.widgets</depends>
+  <depends>com.mbeddr.mpsutil.editorsupport</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

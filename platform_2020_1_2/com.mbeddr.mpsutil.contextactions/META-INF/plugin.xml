@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.contextactions</id>
+  <name>com.mbeddr.mpsutil.contextactions</name>
+  <version>2020.1-2020.1.22296.534d882</version>
+  <vendor url="http://mbeddr.com">mbedrr</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <depends>de.slisson.mps.hacks</depends>
+  <depends>org.apache.commons</depends>
+  <depends>com.intellij.modules.mps</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

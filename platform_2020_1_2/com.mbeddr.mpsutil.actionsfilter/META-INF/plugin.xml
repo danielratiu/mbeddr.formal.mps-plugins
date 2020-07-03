@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin version="2">
+  <id>com.mbeddr.mpsutil.actionsfilter</id>
+  <name>com.mbeddr.mpsutil.actionsfilter</name>
+  <version>1.0</version>
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationConfigurable groupId="appearance" id="com.mbeddr.mpsutil.actionsfilter.runtime.ActionsConfigurable" instance="com.mbeddr.mpsutil.actionsfilter.runtime.ActionsConfigurable" order="after preferences.customizations" />
+  </extensions>
+  <application-components>
+    <component>
+      <implementation-class>com.mbeddr.mpsutil.actionsfilter.runtime.ActionsApplicationComponent</implementation-class>
+    </component>
+  </application-components>
+</idea-plugin>
