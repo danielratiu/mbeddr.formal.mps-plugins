@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.uisupport</id>
+  <name>com.mbeddr.mpsutil.uisupport</name>
+  <version>com.mbeddr.mpsutil.uisupport</version>
+  <vendor url="http://mbeddr.com">mbedrr</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <depends>de.itemis.mps.editor.diagram</depends>
+  <depends>jetbrains.mps.vcs</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

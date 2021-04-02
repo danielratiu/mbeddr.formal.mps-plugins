@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.margincell_review</id>
+  <name>com.mbeddr.mpsutil.margincell_review</name>
+  <description>Review support for user models (using margin cells)</description>
+  <version>2020.2-2020.2.22800.80ffe59</version>
+  <vendor url="http://mbeddr.com/">mbeddr</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <depends>de.slisson.mps.hacks</depends>
+  <depends>de.slisson.mps.richtext</depends>
+  <depends>org.apache.commons</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

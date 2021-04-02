@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.placeholderTextList</id>
+  <name>com.mbeddr.mpsutil.placeholderTextList</name>
+  <description>Editor Placeholder Textlist Langauge from mbeddr.mpsutil</description>
+  <version>2020.2-2020.2.22800.80ffe59</version>
+  <vendor url="http://mbeddr.com/">mbeddr</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <depends>de.slisson.mps.hacks</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>
