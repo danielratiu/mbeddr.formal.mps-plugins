@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>de.itemis.mps.build.gradlesupport</id>
+  <name>de.itemis.mps.build.gradlesupport</name>
+  <version>2020.3-2020.3.23071.2c1c530</version>
+  <vendor url="http://mbeddr.com">mbeddr</vendor>
+  <depends>jetbrains.mps.build</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

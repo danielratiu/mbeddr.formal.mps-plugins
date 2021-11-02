@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.generatorfacade</id>
+  <name>com.mbeddr.mpsutil.generatorfacade</name>
+  <description>Utilities to run the generator to do M2M transformations</description>
+  <version>2020.3-2020.3.23071.2c1c530</version>
+  <vendor url="http://mbeddr.com">mbeddr</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

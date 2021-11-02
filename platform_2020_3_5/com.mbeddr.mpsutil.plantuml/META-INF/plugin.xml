@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.plantuml</id>
+  <name>com.mbeddr.mpsutil.plantuml</name>
+  <version>2020.3-2020.3.23071.2c1c530</version>
+  <vendor url="http://mbeddr.com">mbedrr</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <depends>de.itemis.mps.utils</depends>
+  <depends>jetbrains.mps.ide.httpsupport</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>
