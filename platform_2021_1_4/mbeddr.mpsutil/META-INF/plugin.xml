@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil</id>
+  <name>com.mbeddr.mpsutil</name>
+  <description>Original all-in-one mpsutil plugin (use specific plugins instead)</description>
+  <version>2021.1-2021.1.23346.90b20cb</version>
+  <vendor url="http://mbeddr.com">mbeddr</vendor>
+  <depends>com.mbeddr.mpsutil.plantuml</depends>
+  <depends>com.mbeddr.mpsutil.jung</depends>
+  <depends>com.mbeddr.mpsutil.suppresswarning</depends>
+  <depends>jetbrains.mps.debugger.api</depends>
+  <depends>jetbrains.mps.core</depends>
+  <depends>de.slisson.mps.richtext</depends>
+  <depends>de.slisson.mps.hacks</depends>
+  <depends>de.itemis.mps.editor.diagram</depends>
+  <depends>de.itemis.mps.tooltips</depends>
+  <depends>de.slisson.mps.conditionalEditor</depends>
+  <depends>com.mbeddr.mpsutil.common</depends>
+  <depends>com.mbeddr.mpsutil.infrastructure.misc</depends>
+  <depends>jetbrains.mps.vcs</depends>
+  <depends>de.itemis.mps.blutil</depends>
+  <depends>com.mbeddr.mpsutil.editorsupport</depends>
+  <depends>com.mbeddr.mpsutil.projectview</depends>
+  <depends>com.mbeddr.mpsutil.interpreter</depends>
+  <depends>com.mbeddr.mpsutil.varscope</depends>
+  <depends>com.mbeddr.mpsutil.contextactions</depends>
+  <depends>com.mbeddr.mpsutil.treenotations</depends>
+  <depends>com.mbeddr.mpsutil.jfreechart</depends>
+  <depends>com.mbeddr.mpsutil.json</depends>
+  <depends>com.mbeddr.mpsutil.userstyles</depends>
+  <depends>com.mbeddr.mpsutil.refactoring</depends>
+  <depends>com.mbeddr.mpsutil.uisupport</depends>
+  <depends>com.mbeddr.mpsutil.gensupport</depends>
+  <depends>com.mbeddr.mpsutil.incrementalcomputation</depends>
+  <depends>com.mbeddr.mpsutil.spreferences</depends>
+  <depends>com.mbeddr.mpsutil.margincell_review</depends>
+  <depends>com.mbeddr.mpsutil.editingGuide</depends>
+  <depends>com.mbeddr.mpsutil.genreview</depends>
+  <depends>jetbrains.mps.testing</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

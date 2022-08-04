@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.blutil.test.waitfor</id>
+  <name>com.mbeddr.mpsutil.blutil.test.waitfor</name>
+  <description>Test asynchronous behavior: `wait for` is an assertion similar to `assert true` with the difference, that a false expression will be reevaluated until true or reaching a timeout.</description>
+  <version>2021.1-2021.1.23346.90b20cb</version>
+  <vendor url="http://mbeddr.com">mbedrr</vendor>
+  <depends>jetbrains.mps.core</depends>
+  <depends>jetbrains.mps.testing</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>

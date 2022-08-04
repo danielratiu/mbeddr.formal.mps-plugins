@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.mbeddr.mpsutil.actionsfilter</id>
+  <name>com.mbeddr.mpsutil.actionsfilter</name>
+  <description>Actions Filter from mbeddr.mpsutil</description>
+  <version>2021.1-2021.1.23346.90b20cb</version>
+  <vendor url="http://mbeddr.com/">mbeddr</vendor>
+  <depends>com.intellij.modules.mps</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationConfigurable groupId="appearance" id="com.mbeddr.mpsutil.actionsfilter.runtime.ActionsConfigurable" instance="com.mbeddr.mpsutil.actionsfilter.runtime.ActionsConfigurable" order="after preferences.customizations" />
+  </extensions>
+  <application-components>
+    <component>
+      <implementation-class>com.mbeddr.mpsutil.actionsfilter.runtime.ActionsApplicationComponent</implementation-class>
+    </component>
+  </application-components>
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>
